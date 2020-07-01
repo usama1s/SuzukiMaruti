@@ -1,0 +1,274 @@
+@media only screen and (max-width: 1170px){
+  .top-bar-sec .row{
+    margin: 0 15px !important;
+  }
+}
+@media only screen and (max-width: 767px){
+  .top-bar-sec p{
+    text-align: center !important;
+    line-height: 20px;
+  }
+  .top-bar-sec{
+    padding-bottom: 5px;
+  }
+}
+/* brands */
+@media only screen and (max-width: 1170px){
+  .brands-sec .brands{
+    margin: 0 15px !important
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 890px) {
+  .brands-sec .brands img{
+    transform-origin: top left;
+    transform: scale(0.85);
+  }
+}
+@media only screen and (max-width: 400px) {
+  .brands-sec .brands .maruti-logo img{
+    width: 280px;
+  }
+}
+@media only screen and (max-width: 768px){
+  .brands-sec .brands .row div{
+    text-align: center;
+    margin: 10px auto;
+  }
+}
+
+/* navbar */
+@media only screen and (max-width: 1170px){
+  nav .collapse{
+    padding: 0 15px !important;
+  }
+  nav button{
+    margin-left: 15px;
+  }
+}
+@media only screen and (max-width: 991px){
+  nav{
+    height: 52px;
+    display: none !important;
+  }
+  .brands-sec-top{
+    display: none;
+  }
+  .brands-sec-bottom{
+    display: block;
+  }
+}
+/* contact section */
+@media only screen and (max-width: 1170px){
+  .contact-sec{
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+}
+/* booking section */
+@media only screen and (max-width: 1170px){
+  /* .bookings{
+    margin: auto 15px !important;
+  } */
+  .booking-sec{
+    padding-left: 15px !important;
+    padding-right: 15px !important
+  }
+}
+@media only screen and (max-width: 991px){
+  .bookings-single {
+    margin: 20px auto !important;
+  }
+  .bookings .text {
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+  }
+  .booking-sec h1{
+    line-height: 70px !important;
+    padding-top: 20px;
+  }
+  .booking-sec h1 span{
+    padding-bottom: 5px !important;
+  }
+  .bookings h2{
+    line-height: 40px;
+    margin: 0 auto 0 15px;
+  }
+  .bookings h3{
+    margin: 20px auto 0 15px;
+  }
+  .bookings h4{
+    margin: 20px auto 0 15px;
+  }
+  .bookings .text button{
+    margin: 20px auto 0 15px;
+  }
+
+}
+/* features section */
+@media only screen and (max-width: 1370px){
+  .features-sec .img-side img{
+    left: 0px;
+  }
+
+}
+@media only screen and (max-width: 1170px){
+  .features-sec .img-side h1 {
+    margin-left: 15px !important;
+  }
+}
+@media only screen and (max-width: 991px){
+  .features-sec .features-l{
+    max-width: 100%;
+    float: none;
+    margin: auto !important;
+  }
+  .features-sec .img-side h1 {
+    margin-right: auto !important;
+  }
+  .features-sec .single-text{
+    margin-top: 50px !important;
+    position: relative;
+    left: 0;
+    max-width: 100% !important;
+    text-align: center;
+  }
+  .features-sec .text-side .circle{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,0);
+  }
+  .features-sec .single-text .text h5{
+    line-height: 25px;
+    text-align: center;
+  }
+  .features-sec{
+    padding-bottom: 40px !important;
+  }
+}
+@media only screen and (max-width: 767px){
+  .features-sec .text-side h5 {
+    text-align: center;
+    margin-right: 20px !important;
+  }
+  .single-text .text {
+    padding-top: 20px !important;
+  }
+}
+
+/* service centers section */
+@media only screen and (max-width: 1170px){
+  .service-centeres-sec{
+    /* margin: auto 15px !important; */
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+  .addresses{
+    padding: 10px !important;
+  }
+}
+@media only screen and (max-width: 991px){
+  .service-centeres .top h1{
+    padding-bottom: 30px !important;
+    line-height: 60px;
+  }
+  .service-centeres .top h1 span{
+    padding-bottom: 0;
+  }
+  .service-centeres .top .img {
+    padding-top: 15px !important;
+  }
+}
+@media only screen and (max-width: 600px){
+  .addresses h2{
+    line-height: 25px;
+    text-align: center;
+  }
+  .addresses h2 span{
+    margin: auto 10px !important;
+  }
+}
+
+
+/* faq section */
+@media only screen and (max-width: 1170px){
+  .faqs-sec{
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+}
+@media only screen and (max-width: 580px){
+  .question h2{
+    margin: auto 15px !important;
+    line-height: 30px;
+  }
+  .answer h3{
+    margin: auto 15px !important;
+  }
+}
+
+
+/* about */
+@media only screen and (max-width: 1170px){
+  .about-sec{
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+}
+
+
+/* footer */
+@media only screen and (max-width: 1170px){
+  footer{
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+}
+@media only screen and (max-width: 400px){
+  footer .footer-s p{
+    line-height: 25px;
+  }
+}
+
+/* modal */
+
+@media only screen and (max-width: 768px){
+  .modal .img-side{
+    width: 100%;
+    height: 200px;
+  }
+  .modal .img-side img{
+    width: 50%;
+  }
+  .modal .text-side-form{
+    width: 100%;
+  }
+  .modal h1 {
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .text-side-form form button{
+
+    margin: 15px auto 0 auto;
+
+  }
+  .modal-content .close{
+    color:#e74c3c;
+  }
+  .castrol-logo, .maruti-logo{
+    display: none;
+  }
+}
+@media only screen and (max-width: 410px){
+  .text-side-form h1{
+    width: 100%;
+    font-size: 30px;
+    letter-spacing: 0px;
+    line-height: 34px;
+  }
+}
+@media only screen and (min-width: 768px){
+  .floating-btn{
+    display: none;
+  }
+}
